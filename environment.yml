@@ -1,0 +1,19 @@
+name: erosion
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.9=h3f84c4b_1_cpython
+  - pytorch=2.5.1=py3.12_cuda12.1_cudnn9_0
+  - pytorch-cuda=12.1=hde6ce7c_6
+  - pytorch-mutex=1.0=cuda
+  - numpy
+  - matplotlib
+  - pandas
+  - imageio
+  - jupyter
+  - pip:
+      - torchaudio==2.5.1
+      - torchvision==0.20.1
